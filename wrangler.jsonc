@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "lulu8055-warranty",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-05",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lulu8055-warranty-db",
+      "database_id": "9b95f042-1ae1-4619-b229-8dfdb349eb63"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "lulu8055-warranty-receipts"
+    }
+  ]
+}
