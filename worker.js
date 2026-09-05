@@ -7,8 +7,8 @@ export default {
 
     try {
       // =========================
-      // CUSTOMER PAGE
-      // =========================
+      // CUSTOMER PAGE   
+     // =========================
       if (request.method === "GET" && url.pathname === "/") {
         return html(customerPage());
       }
