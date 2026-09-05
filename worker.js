@@ -1,7 +1,8 @@
-const ADMIN_PASSWORD = "LULU8055@2026";
+let ADMIN_PASSWORD = "";
 
 export default {
   async fetch(request, env) {
+    ADMIN_PASSWORD = env.ADMIN_PASSWORD;
     const url = new URL(request.url);
 
     try {
